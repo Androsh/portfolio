@@ -1,0 +1,54 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: #2d3c49;
+	font-weight: 300;
+}
+
+.text-muted {
+	color: #7d97ad;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+.center-block {
+    display: block;
+   	margin-right: auto;
+   	margin-left: auto;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  display: block;
+  padding: 10px 10px 20px;
+}
+
+@media screen and (min-width: 767px) {
+  .title-logo  {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+  .header {
+  	text-align: right;
+  }
+
+  .text-muted {
+  	text-align: left;
+  }
+}
